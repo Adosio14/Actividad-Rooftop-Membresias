@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Free_1 = require("./Free");
+var Basic_1 = require("./Basic");
+var Premium_1 = require("./Premium");
+var cliente1 = new Free_1.Free('Martín', 15, 0, true, 'Free');
+var cliente2 = new Basic_1.Basic('Alvaro', 30, 3, false, 'Basic');
+var cliente3 = new Premium_1.Premium('PabloEscobar', 30, 9, false, 'Premium');
+console.log(cliente1.getMembership());
+console.log(cliente2.getMembership());
+console.log(cliente3.getMembership());

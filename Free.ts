@@ -1,3 +1,6 @@
+import Member from "./Member"
+
+
 export class Free extends Member {
     constructor(protected name: string, protected maxTime : number, 
         protected membershipValue: number, protected haveAds:boolean,protected membershipLevel : string ){

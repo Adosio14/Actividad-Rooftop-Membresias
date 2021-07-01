@@ -1,3 +1,5 @@
+import Member from "./Member"
+
 export class Basic extends Member {
     constructor(protected name: string, protected maxTime : number, 
         protected membershipValue: number, protected haveAds:boolean,protected membershipLevel : string){

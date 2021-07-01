@@ -1,6 +1,6 @@
-import Free from './Free'
-import Basic from './Basic'
-import Premium from './Premium'
+import { Free } from "./Free"
+import {Basic} from "./Basic"
+import {Premium} from "./Premium"
 
 
 let cliente1 = new Free('Martín', 15, 0, true, 'Free')
